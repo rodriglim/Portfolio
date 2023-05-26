@@ -1,0 +1,42 @@
+@media only screen and (max-width: 767px){
+   
+    /*Nav*/
+    .navbar .logo{
+        width: 5px;
+        margin: 0 auto;
+    }
+    .navbar .navbar-nav .nav-item{
+        text-align: center;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link:hover{
+        color: #FFD600;
+    }
+
+    /*main*/
+
+    .main .container .left{
+        width: 100%;
+        text-align: center;
+    }
+
+    .main .container .left .title{
+        font-size: 50px;
+    }
+
+    .main .container .left .subtitle,
+    p{
+        font-size: 14px;
+    }
+
+    .main .container .left .sociais{
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .main .container .img-holder{
+        flex: 100%;
+    }
+
+}
