@@ -240,7 +240,7 @@ section .container .row .paragraph p {
     flex: 100%;
 }
 
-.title-service h6{
+#service .container .title-service h6{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -249,7 +249,7 @@ section .container .row .paragraph p {
     color: #495057;
 }
 
-.title-service p{
+#service .container .title-service p{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -273,7 +273,7 @@ section .container .row .paragraph p {
 
 }
 
-#service .container .row .card-title,p{
+#service .container .row .card-title p{
     text-align: center;
 }
 
