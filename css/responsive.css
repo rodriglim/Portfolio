@@ -16,6 +16,15 @@
     }
 }
 
+/*Breakpoint LG*/
+@media only screen and (max-width: 991px){
+    #service .container .row .p-web{
+        text-align: center;
+
+    }
+    
+}
+
 @media only screen and (max-width: 767px){
     /*Nav*/
     .navbar .logo{

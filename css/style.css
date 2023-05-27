@@ -45,6 +45,22 @@ body {
     transition: 1s;
 }
 
+.navbar .container .logo img{
+    animation: rotate 5s linear infinite;
+}
+
+
+/*Animation of logo*/
+@keyframes rotate{
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
 /*Main*/
 
 .main {
@@ -273,7 +289,7 @@ section .container .row .paragraph p {
 
 }
 
-#service .container .row .card-titlep{
+#service .container .row .card-title p{
     text-align: center;
 }
 
