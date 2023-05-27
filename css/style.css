@@ -219,3 +219,74 @@ section .container .row .paragraph p {
     font-size: 14px;
     color: #000000;
 }
+
+/*section - services*/
+
+#service{
+    display: flex;
+    height: auto;
+    margin-top: 2%;
+}
+
+#service > .container{
+    height: 100%;
+}
+
+#service .container .title-service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 100%;
+}
+
+.title-service h6{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    color: #495057;
+}
+
+.title-service p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(73, 80, 87, 0.9);
+}
+
+#service .container .row{
+    display: flex; 
+    height: auto;
+}
+
+#service .container .row .card{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    padding: 30px;
+    border-radius: 5%;
+    transition: all 2s ease;
+
+}
+
+#service .container .row .card-title,p{
+    text-align: center;
+}
+
+#service .container .row .card i{
+    color: #FFD600;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#service .container .row .card:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    border: 2px solid #FFD600;
+}
