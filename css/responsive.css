@@ -1,12 +1,13 @@
 /*Breakpoint XXL*/
-@media only screen and (min-width: 1400px){
+@media only screen and (min-width: 1400px) {
+
     /*section*/
     section .container .row .title {
         justify-content: center;
         align-items: center;
     }
 
-    section .container .row .paragraph{
+    section .container .row .paragraph {
         margin-top: 4%;
         display: flex;
         justify-content: center;
@@ -17,55 +18,57 @@
 }
 
 /*Breakpoint LG*/
-@media only screen and (max-width: 991px){
-    #service .container .row .p-web{
+@media only screen and (max-width: 991px) {
+    #service .container .row .p-web {
         text-align: center;
 
     }
-    
+
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 767px) {
+
     /*Nav*/
-    .navbar .logo{
+    .navbar .logo {
         width: 5px;
         margin: 0 auto;
     }
-    .navbar .navbar-nav .nav-item{
+
+    .navbar .navbar-nav .nav-item {
         text-align: center;
     }
 
-    .navbar .navbar-nav .nav-item .nav-link:hover{
+    .navbar .navbar-nav .nav-item .nav-link:hover {
         color: #FFD600;
     }
 
     /*main*/
 
-    .main .container .left{
+    .main .container .left {
         width: 100%;
         text-align: center;
     }
 
-    .main .container .left .title{
+    .main .container .left .title {
         font-size: 50px;
     }
 
     .main .container .left .subtitle,
-    p{
+    p {
         font-size: 14px;
     }
 
-    .main .container .left .sociais{
+    .main .container .left .sociais {
         justify-content: center;
         align-items: center;
         padding-top: 20px;
     }
 
-    .main .container .img-holder{
-       flex: 100%;
+    .main .container .img-holder {
+        flex: 100%;
     }
 
-    .main .container .img-holder{
+    .main .container .img-holder {
         width: 100%;
         height: 80%;
     }
@@ -77,15 +80,20 @@
         align-items: center;
     }
 
-    section .container .row .paragraph{
+    section .container .row .paragraph {
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
         flex-direction: column;
     }
-
     /*section - portfolio*/
-   
+
+    .card-group{
+        flex-direction: column;
+    }
     
+    .card-group .card{
+        margin: 15px 0;
+    }
 }

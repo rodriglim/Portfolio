@@ -314,7 +314,6 @@ section .container .row .paragraph p {
 
 #portfolio .container {
     text-align: center;
-    margin-top: 2%;
 }
 
 #portfolio .container .title-port p {
@@ -341,6 +340,13 @@ section .container .row .paragraph p {
     width: 100%;
 }
 
-.card-group .card{
-    margin: 0 30px;
+.card-group > .card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 0px 30px;
+    margin-bottom: 4%;
 }
+
+.card-group .card img{
+    border-radius: 2%;
+}
+
