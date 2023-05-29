@@ -22,9 +22,11 @@ body {
     height: auto;
 }
 
+.navbar .navbar-toggler{
+    background-color: #FFD600;
+}
 .navbar .navbar-toggler,
 .fa-bars {
-    background-color: #FFD600;
     color: #FFF;
 }
 
