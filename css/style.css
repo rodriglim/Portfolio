@@ -25,10 +25,7 @@ body {
 .navbar .navbar-toggler{
     background-color: #FFD600;
 }
-.navbar .navbar-toggler,
-.fa-bars {
-    color: #FFF;
-}
+
 
 .nav-item {
     padding: 0 10px;
