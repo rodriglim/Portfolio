@@ -23,7 +23,7 @@ body {
 }
 
 .navbar .navbar-toggler,
-.ti-menu {
+.fa-bars {
     background-color: #FFD600;
     color: #FFF;
 }
@@ -45,13 +45,13 @@ body {
     transition: 1s;
 }
 
-.navbar .container .logo img{
+.navbar .container .logo img {
     animation: rotate 5s linear infinite;
 }
 
 
 /*Animation of logo*/
-@keyframes rotate{
+@keyframes rotate {
     from {
         transform: rotateZ(0deg);
     }
@@ -238,17 +238,17 @@ section .container .row .paragraph p {
 
 /*section - services*/
 
-#service{
+#service {
     display: flex;
     height: auto;
     margin-top: 2%;
 }
 
-#service > .container{
+#service>.container {
     height: 100%;
 }
 
-#service .container .title-service{
+#service .container .title-service {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -256,7 +256,7 @@ section .container .row .paragraph p {
     flex: 100%;
 }
 
-#service .container .title-service h6{
+#service .container .title-service h6 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -265,7 +265,7 @@ section .container .row .paragraph p {
     color: #495057;
 }
 
-#service .container .title-service p{
+#service .container .title-service p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -273,12 +273,12 @@ section .container .row .paragraph p {
     color: rgba(73, 80, 87, 0.9);
 }
 
-#service .container .row{
-    display: flex; 
+#service .container .row {
+    display: flex;
     height: auto;
 }
 
-#service .container .row .card{
+#service .container .row .card {
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -289,11 +289,11 @@ section .container .row .paragraph p {
 
 }
 
-#service .container .row .card-title p{
+#service .container .row .card-title p {
     text-align: center;
 }
 
-#service .container .row .card i{
+#service .container .row .card i {
     color: #FFD600;
     font-size: 40px;
     justify-content: center;
@@ -301,8 +301,48 @@ section .container .row .paragraph p {
     margin-top: 30px;
 }
 
-#service .container .row .card:hover{
+#service .container .row .card:hover {
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
-    border: 2px solid #FFD600;
+    border: 2px solid rgb(255, 214, 0);
+}
+
+/*Portfolio*/
+
+#portfolio {
+    display: flex;
+    height: auto;
+}
+
+#portfolio .container {
+    text-align: center;
+    margin-top: 2%;
+}
+
+#portfolio .container .title-port p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(73, 80, 87, 0.9);
+}
+
+
+#portfolio .container .title-port h6 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    color: #495057;
+}
+
+.card-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+.card-group .card{
+    margin: 0 30px;
 }
