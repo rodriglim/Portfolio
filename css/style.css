@@ -349,6 +349,8 @@ section .container .row .paragraph p {
 }
 
 .card-group .card img{
+    margin: 0 auto;
+    width: 90%;
     border-radius: 2%;
 }
 
@@ -364,19 +366,33 @@ section .container .row .paragraph p {
     height: 48px;
     background: #FFD600;
     border-radius: 100px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
     border: none;
-    text-align: center;
-    color: #FFFFFF;
     margin-bottom: 10px;
 }
 
-.button-categorias button:hover{
+.button-categorias .btn:hover{
     background-color: #FFF;
     color: #FFD600;
     border: 2px solid #FFD600;
+    opacity: 0.9;
+}
+
+#portfolio .container .card{
+    border-radius: 10px;
+    background-color: #FFD600;
+    transition: 2s;
+}
+#portfolio .container .card img{
+    border-radius: 10px;
+}
+#portfolio .container .card .card-body a> i{
+    color: #FFF;
+    margin: 0 auto;
+}
+
+#portfolio .container .card-group .card:hover{
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);    
+
+
 }

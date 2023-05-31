@@ -19,7 +19,7 @@
 
 /*Breakpoint LG*/
 @media only screen and (max-width: 991px) {
-    #service .container .row .p-web {
+    #service .container .row .p-web, .p-design{
         text-align: center;
 
     }
