@@ -26,7 +26,6 @@ body {
     background-color: #FFD600;
 }
 
-
 .nav-item {
     padding: 0 10px;
 }
@@ -48,7 +47,9 @@ body {
     animation: rotate 5s linear infinite;
 }
 
-
+.navbar .container .navbar-toggler{
+    background-color: #FFD600;
+}
 /*Animation of logo*/
 @keyframes rotate {
     from {
@@ -341,6 +342,7 @@ section .container .row .paragraph p {
 }
 
 .card-group > .card{
+    position: relative;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin: 0px 30px;
     margin-bottom: 4%;
@@ -350,3 +352,31 @@ section .container .row .paragraph p {
     border-radius: 2%;
 }
 
+
+.card-group .card h5{
+    position: absolute;
+    margin-top: -40%;
+    margin-left: 30%;
+}
+
+.button-categorias button{
+    width: 140px;
+    height: 48px;
+    background: #FFD600;
+    border-radius: 100px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.button-categorias button:hover{
+    background-color: #FFF;
+    color: #FFD600;
+    border: 2px solid #FFD600;
+}
