@@ -385,14 +385,14 @@ section .container .row .paragraph p {
 #portfolio .container .card img{
     border-radius: 10px;
 }
-#portfolio .container .card .card-body a> i{
+#portfolio .container .card  a{
     color: #FFF;
     margin: 0 auto;
 }
 
-#portfolio .container .card-group .card:hover{
-    transform: scale(0.9);
-    -webkit-transform: scale(0.9);    
-
-
+#portfolio .container .card-group .card a:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transition: 2s;
 }
+
