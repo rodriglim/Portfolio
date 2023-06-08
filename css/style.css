@@ -298,11 +298,26 @@ section .container .row .paragraph p {
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
 }
 
 #service .container .row .card:hover {
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
     border: 2px solid rgb(255, 214, 0);
 }
 
@@ -396,3 +411,7 @@ section .container .row .paragraph p {
     transition: 2s;
 }
 
+.carousel-control-prev .carousel-control-prev-icon, .carousel-control-next .carousel-control-next-icon{
+    background-color: #000000;
+    border-radius: 10px;
+}
